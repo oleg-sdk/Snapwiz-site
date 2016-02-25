@@ -2,7 +2,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: "Helvetica", sans-serif;
-  background: #F4F4F7;
+  background: #F9F9FF;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -60,6 +60,11 @@ section{
   }
 }
 #features{
+  height: 750px;
+  .container{
+    height:auto;
+    margin-bottom: 60px;
+  }
   h2{
     text-align: center;
     font-size: 50px;
@@ -75,15 +80,22 @@ section{
     font-weight: 100;
     color: #49494A;
   }
-  .feature{
-    width:30%;
-    float:left;
-    text-align: center;
-    img{
-      width: 250px;
-    }
-    p{
-      font-size:14px;
+  .flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    .feature{
+      width:28%;
+      min-width: 240px;
+      //float:left;
+      text-align: center;
+      img{
+        width: 250px;
+      }
+      p{
+        font-size:14px;
+      }
     }
   }
 }
@@ -112,6 +124,7 @@ section{
     margin-top: 25vh;
     h2{
       font-size: 50px;
+      color:white;
     }
     .wrapper{
       width: 350px;
@@ -127,6 +140,11 @@ section{
           margin-right: 40px;
         }
       }
+    }
+  }
+  .product-slider{
+    .slide-container{
+      background: image(files/laptop-full.png);
     }
   }
 
