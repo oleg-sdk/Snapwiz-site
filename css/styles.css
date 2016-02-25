@@ -139,3 +139,6 @@ section {
   float: left;
   margin-right: 40px;
 }
+#products .product-slider .slide-container {
+  background-image: url(files/laptop-full.png);
+}
