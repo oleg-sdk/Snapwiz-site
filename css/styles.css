@@ -131,7 +131,7 @@ section {
 }
 #products .product-text .wrapper .text-slider {
   width: 1200px;
-  transform: translateX(-320px);
+  transform: translateX(0px);
   transition: 1s ease;
 }
 #products .product-text .wrapper .text-slider p {
@@ -141,16 +141,36 @@ section {
   margin-right: 40px;
 }
 #products .product-slider {
-  top: 20vh;
+  top: 21vh;
   position: absolute;
-  left: 300px;
+  left: 290px;
+  background: url("/files/laptop-full.png") no-repeat;
+  background-size: 100% 100%;
+  width: 1024px;
+  height: 580px;
 }
 #products .product-slider .wrapper {
-  height: 600px;
+  border: 1px solid red;
+  height: 415px;
+  width: 708px;
+  position: absolute;
+  top: 67px;
+  left: 160px;
+  overflow: hidden;
 }
 #products .product-slider .wrapper .slide-container {
-  background: url("/files/laptop-full.png") no-repeat;
-  background-size: 80% 80%;
-  width: 1272px;
-  height: 720px;
+  width: 3000px;
+  transform: translateX(0px);
+  transition: 1s ease;
+  height: 415px;
+  float: left;
+}
+#products .product-slider .wrapper .slide-container .slide {
+  display: block;
+  float: left;
+  margin-right: 40px;
+}
+#products .product-slider .wrapper .slide-container .slide img {
+  height: 415px;
+  width: 708px;
 }
