@@ -9,6 +9,7 @@ body {
 section {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 .container {
   max-width: 1000px;
@@ -117,7 +118,7 @@ section {
   border: 1px solid aqua;
 }
 #products .product-text {
-  width: 350px;
+  width: 280px;
   margin-top: 25vh;
 }
 #products .product-text h2 {
@@ -125,20 +126,31 @@ section {
   color: white;
 }
 #products .product-text .wrapper {
-  width: 350px;
+  width: 280px;
   overflow: hidden;
 }
 #products .product-text .wrapper .text-slider {
   width: 1200px;
-  transform: translateX(-390px);
+  transform: translateX(-320px);
   transition: 1s ease;
 }
 #products .product-text .wrapper .text-slider p {
   display: block;
-  max-width: 350px;
+  max-width: 280px;
   float: left;
   margin-right: 40px;
 }
-#products .product-slider .slide-container {
-  background-image: url(files/laptop-full.png);
+#products .product-slider {
+  top: 20vh;
+  position: absolute;
+  left: 300px;
+}
+#products .product-slider .wrapper {
+  height: 600px;
+}
+#products .product-slider .wrapper .slide-container {
+  background: url("/files/laptop-full.png") no-repeat;
+  background-size: 80% 80%;
+  width: 1272px;
+  height: 720px;
 }
