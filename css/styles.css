@@ -154,6 +154,10 @@ section {
   width: 1024px;
   height: 580px;
 }
+.product-slider.left {
+  right: 290px;
+  left: auto;
+}
 .product-slider .wrapper {
   border: 1px solid red;
   height: 415px;
@@ -178,4 +182,25 @@ section {
 .product-slider .wrapper .slide-container .slide img {
   height: 415px;
   width: 708px;
+}
+#team {
+  height: 750px;
+}
+#team .container {
+  height: auto;
+  margin-bottom: 60px;
+}
+#team h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#team p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 100;
+  color: #49494A;
 }
