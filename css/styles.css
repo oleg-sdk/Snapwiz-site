@@ -139,8 +139,13 @@ section {
   max-width: 280px;
   float: left;
   margin-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border-left: 2px solid aqua;
+  padding-left: 10px;
 }
-#products .product-slider {
+.product-slider {
   top: 21vh;
   position: absolute;
   left: 290px;
@@ -149,7 +154,7 @@ section {
   width: 1024px;
   height: 580px;
 }
-#products .product-slider .wrapper {
+.product-slider .wrapper {
   border: 1px solid red;
   height: 415px;
   width: 708px;
@@ -158,19 +163,19 @@ section {
   left: 160px;
   overflow: hidden;
 }
-#products .product-slider .wrapper .slide-container {
+.product-slider .wrapper .slide-container {
   width: 3000px;
   transform: translateX(0px);
   transition: 1s ease;
   height: 415px;
   float: left;
 }
-#products .product-slider .wrapper .slide-container .slide {
+.product-slider .wrapper .slide-container .slide {
   display: block;
   float: left;
   margin-right: 40px;
 }
-#products .product-slider .wrapper .slide-container .slide img {
+.product-slider .wrapper .slide-container .slide img {
   height: 415px;
   width: 708px;
 }
