@@ -10,6 +10,7 @@ section {
   width: 100%;
   position: relative;
   background: whitesmoke;
+  overflow: hidden;
 }
 .particles {
   position: fixed;
@@ -140,7 +141,7 @@ canvas {
   border: 1px solid aqua;
 }
 #products .product-text {
-  width: 350px;
+  width: 280px;
   margin-top: 25vh;
 }
 #products .product-text h2 {
@@ -167,20 +168,57 @@ canvas {
   line-height: 26px;
 }
 #products .product-text .wrapper {
-  width: 350px;
+  width: 280px;
   overflow: hidden;
 }
 #products .product-text .wrapper .text-slider {
   width: 1200px;
-  transform: translateX(-390px);
+  transform: translateX(0px);
   transition: 1s ease;
 }
 #products .product-text .wrapper .text-slider p {
   display: block;
-  max-width: 350px;
+  max-width: 280px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border-left: 2px solid aqua;
+  padding-left: 10px;
+}
+.product-slider .slide-container {
+  background: url('/files/laptop-full.png');
+  top: 21vh;
+  position: absolute;
+  left: 290px;
+  background: url("/files/laptop-full.png") no-repeat;
+  background-size: 100% 100%;
+  width: 1024px;
+  height: 580px;
+}
+.product-slider .slide-container .wrapper {
+  border: 1px solid red;
+  height: 415px;
+  width: 708px;
+  position: absolute;
+  top: 67px;
+  left: 160px;
+  overflow: hidden;
+}
+.product-slider .slide-container .wrapper .slide-container {
+  width: 3000px;
+  transform: translateX(0px);
+  transition: 1s ease;
+  height: 415px;
+  float: left;
+}
+.product-slider .slide-container .wrapper .slide-container .slide {
+  display: block;
   float: left;
   margin-right: 40px;
 }
-#products .product-slider .slide-container {
-  background: url('/files/laptop-full.png');
+.product-slider .slide-container .wrapper .slide-container .slide img {
+  height: 415px;
+  width: 708px;
 }

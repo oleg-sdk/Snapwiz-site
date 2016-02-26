@@ -11,6 +11,7 @@ section{
   width:100%;
   position: relative;
   background: whitesmoke;
+  overflow: hidden;
 }
 
 @import "particles.less";
@@ -124,7 +125,7 @@ section{
     border: 1px solid aqua;
   }
   .product-text{
-    width: 350px;
+    width: 280px;
     margin-top: 25vh;
     h2{
       font-size: 50px;
@@ -148,17 +149,23 @@ section{
       line-height: 26px;
     }
     .wrapper{
-      width: 350px;
+      width: 280px;
       overflow: hidden;
       .text-slider{
         width: 1200px;
-        transform: translateX(-390px);
+        transform: translateX(0px);
         transition: 1s ease;
         p{
           display: block;
-          max-width: 350px;
+          max-width: 280px;
           float: left;
           margin-right: 40px;
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          border-left: 2px solid aqua;
+          padding-left: 10px;
+        }
         }
       }
     }
@@ -166,11 +173,41 @@ section{
   .product-slider{
     .slide-container{
       background: url('/files/laptop-full.png');
+    top: 21vh;
+    position: absolute;
+    left: 290px;
+    background: url("/files/laptop-full.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1024px;
+    height: 580px;
+    .wrapper{
+      border: 1px solid red;
+      height: 415px;
+      width: 708px;
+      position: absolute;
+      top: 67px;
+      left: 160px;
+      overflow: hidden;
+      .slide-container{
+        width: 3000px;
+        transform: translateX(0px);
+        transition: 1s ease;
+        height: 415px;
+        float: left;
+        .slide{
+          display: block;
+          float: left;
+          margin-right: 40px;
+          img{
+            height: 415px;
+            width: 708px;
+          }
+        }
+      }
     }
   }
+}
 
   #edulastic.stage1{}
   #edulastic.stage2{}
   #edulastic.stage3{}
-
-}
