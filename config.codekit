@@ -44,6 +44,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/orion1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24963,
+		"inputAbbreviatedPath": "\/files\/orion1.jpg",
+		"outputAbbreviatedPath": "\/files\/orion1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/professional.png": {
 		"fileType": 32768,
 		"ignore": 0,
